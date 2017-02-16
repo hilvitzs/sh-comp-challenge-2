@@ -1,5 +1,4 @@
 html, body {
-  background-color: steelblue;
   height: 100%;
   width: 100%;
   background-color: #EFEFEF;
@@ -12,8 +11,8 @@ header {
 }
 
 main {
-  width: 100%;
   height: 80%;
+  width: 100%;
 }
 
 h1 {
@@ -24,15 +23,30 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 2px;
 }
 
 .card {
   height: 400px;
   width: 23%;
-  border: 1px solid black;
   box-shadow: 1px 1px 5px black;
+  background-color: #FFFFFF;
 }
 
 .card-top {
   margin-bottom: 10px;
+}
+
+.suit {
+  height: 30%;
+  width: 100%;
+}
+
+.link {
+  font-size: 10px;
+  width: 80%;
+  word-break: break-all;
+  margin: auto;
+  background-color: #EFEFEF;
+  padding: 5px;
 }
