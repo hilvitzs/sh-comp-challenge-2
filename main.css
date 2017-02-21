@@ -264,6 +264,10 @@ input {
   }
 
   .icon {
-    margin: 0;
+    margin: 3px;
+  }
+
+  .logo {
+    top: 5px;
   }
 }
