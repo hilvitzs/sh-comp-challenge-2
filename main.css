@@ -1,22 +1,39 @@
 html, body {
   height: 100%;
-  width: 100%;
   background-color: #EFEFEF;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
-  height: 20%;
-  width: 100%;
   background-color: #2B2B2B;
+  height: 20%;
 }
 
 main {
   height: 80%;
-  width: 100%;
 }
 
 h1 {
   display: block;
+}
+
+h4 {
+  margin-left: 15px;
+}
+
+p {
+  margin: 0;
+  margin-left: 15px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input {
+  background-color: transparent;
 }
 
 .container {
@@ -27,26 +44,216 @@ h1 {
 }
 
 .card {
-  height: 400px;
-  width: 23%;
-  box-shadow: 1px 1px 5px black;
   background-color: #FFFFFF;
-}
-
-.card-top {
+  box-shadow: 1px 1px 5px black;
+  min-height: 400px;
+  width: 23%;
   margin-bottom: 10px;
 }
 
-.suit {
-  height: 30%;
-  width: 100%;
-}
-
 .link {
+  background-color: #EFEFEF;
   font-size: 10px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
   width: 80%;
   word-break: break-all;
-  margin: auto;
-  background-color: #EFEFEF;
-  padding: 5px;
+}
+
+.icon {
+  position: relative;
+  top: 100px;
+}
+
+.logo {
+  float: right;
+  height: 100px;
+  margin-top: 30px;
+  position: absolute;
+  right: 0px;
+  width: 150px;
+}
+
+.top1 {
+  background: url('images/malcolm.jpg') no-repeat 0 -20px;
+  background-blend-mode: darken;
+  background-color: darkgrey;
+  background-size: cover;
+  height: 33%;
+}
+
+.top2 {
+  background: url('images/inara.jpg') no-repeat;
+  background-blend-mode: darken;
+  background-color: darkgrey;
+  background-size: cover;
+  height: 33%;
+}
+
+.top3 {
+  background: url('images/jayne.jpg') no-repeat;
+  background-blend-mode: darken;
+  background-color: darkgrey;
+  background-size: cover;
+  height: 33%;
+}
+
+.top4 {
+  background: url('images/book.jpg') no-repeat;
+  background-blend-mode: darken;
+  background-color: darkgrey;
+  background-size: cover;
+  height: 33%;
+}
+
+.top5 {
+  background: url('images/simon.jpg') no-repeat;
+  background-blend-mode: darken;
+  background-color: darkgrey;
+  background-size: cover;
+  height: 33%;
+}
+
+.top6 {
+  background: url('images/kaylee.jpg') no-repeat;
+  background-blend-mode: darken;
+  background-color: darkgrey;
+  background-size: cover;
+  height: 33%;
+}
+
+.top7 {
+  background: url('images/river.jpg') no-repeat 0 -25px;
+  background-blend-mode: darken;
+  background-color: darkgrey;
+  background-size: cover;
+  height: 33%;
+}
+
+.top8 {
+  background: url('images/zoe.jpg') no-repeat;
+  background-blend-mode: darken;
+  background-color: darkgrey;
+  background-size: cover;
+  height: 33%;
+}
+
+.arrow {
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+.views {
+  margin-left: 75%;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+
+#view-number {
+  font-size: 25px;
+  padding-top: 3px;
+}
+
+#name {
+  color: #727272;
+  margin-top: 5px;
+}
+
+#date {
+  color: #D2D3D4;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+#playlist {
+  color: #727272;
+  margin-top: 25px;
+  font-size: 12px;
+}
+
+#namePlaylist {
+  color: #727272;
+  margin-top: 3px;
+}
+
+#attachment {
+  color: #727272;
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+#number {
+  color: #ff6600;
+  font-size: 25px;
+}
+
+#admin {
+  float: right;
+}
+
+#logo {
+  float:right;
+  border: 1px solid black;
+}
+
+#share-btn {
+  color: white;
+}
+
+#playlist-btn {
+  color: #929292;
+}
+
+#personal-btn {
+  color: #929292;
+}
+
+#admin {
+  color: #929292;
+  display: inline;
+}
+
+
+@media screen and (max-width: 680px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  button {
+    display: block;
+  }
+  .card {
+    width: 50%;
+  }
+
+  .icon {
+    margin-top: 0;
+    top: 0;
+    padding: auto;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    float: right;
+    margin: 0;
+    top: 20px;
+  }
+
+  #admin {
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .card {
+    width: 100%;
+  }
 }
