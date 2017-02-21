@@ -76,49 +76,63 @@ input {
 }
 
 .top-section {
-  background-blend-mode: darken;
-  background-color: darkgrey;
   height: 132px;
 }
 
 .top1 {
   background: url('images/malcolm.jpg') no-repeat 0 -20px;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: darkgrey;
 }
 
 .top2 {
   background: url('images/inara.jpg') no-repeat;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: darkgrey;
 }
 
 .top3 {
   background: url('images/jayne.jpg') no-repeat;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: darkgrey;
 }
 
 .top4 {
   background: url('images/book.jpg') no-repeat;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: darkgrey;
 }
 
 .top5 {
   background: url('images/simon.jpg') no-repeat;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: darkgrey;
 }
 
 .top6 {
   background: url('images/kaylee.jpg') no-repeat;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: darkgrey;
 }
 
 .top7 {
   background: url('images/river.jpg') no-repeat 0 -25px;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: darkgrey;
 }
 
 .top8 {
   background: url('images/zoe.jpg') no-repeat 0 -30px;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: darkgrey;
 }
 
 .arrow {
