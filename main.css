@@ -15,6 +15,7 @@ main {
 
 h1 {
   display: block;
+  margin-left: 15px;
 }
 
 h4 {
@@ -255,6 +256,14 @@ input {
 
 @media screen and (max-width: 350px) {
   .card {
-    width: 100%;
+    width: 90%;
+  }
+
+  #admin {
+    margin: 0;
+  }
+
+  .icon {
+    margin: 0;
   }
 }
